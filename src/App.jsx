@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react'; // <--- ESTA LÍNEA ES LA QUE FALTA
 import { inicializarEntorno } from './main';
 
 export default function App() {
-  const canvasRef = useRef(null); // Ahora sí funcionará sin dar error
+  const canvasRef = useRef(null);
 
   useEffect(() => {
     const limpiarEntorno = inicializarEntorno(canvasRef.current);
