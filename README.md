@@ -1,18 +1,37 @@
-# React + Vite
+# Ejercicios de Three.js
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Este repositorio contiene ejercicios que estoy desarrollando mientras aprendo Three.js y gráficos 3D para la web. La idea es ir practicando conceptos de a poco: geometrías, materiales, luces, cámaras y animación.
 
-Currently, two official plugins are available:
+## Ejercicio actual: Space Grid + Torus
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Escena 3D con un grid tipo cuadrícula infinita, un torus (dona) con material y color personalizado, y un campo de estrellas de fondo simulando un ambiente espacial.
 
-## React Compiler
+Conceptos practicados:
+- Creación de geometrías básicas (TorusGeometry)
+- Materiales y color
+- Grid helper para el plano
+- Generación de partículas para el fondo estrellado
+- Configuración de cámara y perspectiva
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## Tecnologías usadas
 
-Note: This will impact Vite dev & build performances.
+- Three.js
+- Vite
+- JavaScript
 
-## Expanding the Oxlint configuration
+## Cómo correr el proyecto localmente
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Cloná el repositorio e instalá las dependencias:
+
+```bash
+git clone https://github.com/tu-usuario/nombre-del-repo.git
+cd nombre-del-repo
+npm install
+npm run dev
+```
+
+Luego abrí el navegador en la URL que indique la terminal (normalmente `http://localhost:5173`).
+
+## Próximos pasos
+
+A medida que avance con nuevos ejercicios, los iré agregando a este repositorio o en repositorios separados, según corresponda.
